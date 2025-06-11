@@ -1,8 +1,6 @@
 from praktikum.database import Database
 
 
-# Проверяем, что метод available_buns возвращает все булки из базы
-# Проверяем, что метод available_ingredients возвращает все ингредиенты из базы
 class TestDatabase:
     # Проверяем, что метод available_buns возвращает все булки из базы
     def test_available_buns_return_all_added_buns(self):
